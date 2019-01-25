@@ -1,0 +1,27 @@
+{
+  "name": "neo4j-graphql-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-errors": "^1.9.0",
+    "apollo-server-express": "^2.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.4",
+    "neo4j-driver": "^1.7.2",
+    "neo4j-graphql-js": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
